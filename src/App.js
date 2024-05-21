@@ -35,10 +35,10 @@ function App() {
       const parsedData = parseField1(entry.field1);
       const thresholds = {
         'Gas value': 300,
-        'Voltage value': 400,
+        'Voltage value': 550,
         'Vibration value': 500,
         'IR value': 0,
-        'Temperature': 0,
+        'Temperature': 40,
         'Humidity': 70,
       };
 
