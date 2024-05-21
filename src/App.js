@@ -9,7 +9,7 @@ function App() {
 
   useEffect(() => {
     fetchData(); // Fetch data when component mounts
-    const interval = setInterval(fetchData, 2000); // Reload data every two seconds
+    const interval = setInterval(fetchData, 10000); // Reload data every two seconds
 
     return () => clearInterval(interval); // Cleanup function
   }, []); 
